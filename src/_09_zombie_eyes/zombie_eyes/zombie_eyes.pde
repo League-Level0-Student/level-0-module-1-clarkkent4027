@@ -5,5 +5,10 @@ PImage face = loadImage("photo2.jpg");
 image(face, 0, 0);
 }
 void draw() {
-ellipse(224, 122, 30, 30);
+fill(mouseX, mouseY, mouseY);
+ellipse(450, 250, 100, 100);
+fill(mouseY, mouseX, mouseX);
+ellipse(625, 375, 100, 100);
+
+
 }
